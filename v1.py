@@ -7,8 +7,8 @@ from binance.enums import HistoricalKlinesType
 # https://python-binance.readthedocs.io/en/latest/binance.html
 
 # you can get the api key and api secret from the binance website
-api_key = "MYgUFxFMjeVglbzUsips2x38QR11XNJQ5NuYVbov3QBITOcyYmnBGA3MtuHTegWY"
-api_secret = "tOfsgUFcmjb1odifv2F1z4gYjl8Fvbzr5xjbQmiMbNSZnADjRcpCuToHp1H0R2x7"
+api_key = "YOUR_BINANCE_API_KEY"
+api_secret = "YOUR_BINANCE_API_SECRET"
 client = Client(api_key, api_secret)
 
 # get the ETH to usdt real time price
@@ -33,3 +33,4 @@ print(klines[0][4])
 # sample output
 # 2022-10-29 23:26:59
 # 1625.87
+
